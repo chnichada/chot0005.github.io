@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #005e78;
+  font-size: 18px;
+}
+
+header nav,
+header a,
+footer,
+footer a {
+  background-color: #273347;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul a {
+  text-decoration: none;
+  background-color: #008684;
+  border: 2px solid darkslategrey;
+  border-radius: 3px;
+}
+
+nav ul a,
+nav ul a:link,
+nav ul a:visited {
+  background-color: #005e78;
+}
+
+nav ul .current,
+nav ul a:hover,
+nav ul a:focus {
+  background-color: #9ecbc8;
+  border: 2px solid #008684;
+}
+
+nav ul a:active {
+  background-color: #273347;
+  border: 3px solid #273347;
+}
+
+main a {
+  color: #273347;
+}
+
+.site-title {
+  color: #273347;
+}
+
+#my-image {
+  box-shadow: 0 0 2px 1px black;
+}
+
+.squarebullet ul {
+  list-style: square;
+}
+
+.squarebullet ul li:nth-child(odd) {
+  background-color: #9ecbc8;
+}
