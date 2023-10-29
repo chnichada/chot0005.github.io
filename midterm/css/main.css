@@ -27,7 +27,7 @@ img {
 /* styling the navigation */
 nav ul {
     list-style: none;
-    margin: 3px 0px;
+    margin: 0px;
 }
 
 nav ul li {
@@ -37,6 +37,25 @@ nav ul li {
 
 }
 
+/* using psuedo classes */
+nav ul a,
+nav ul a:link,
+nav ul a:visited {
+    color: #000;
+}
+
+nav ul .current,
+nav ul a:hover,
+nav ul a:focus {
+    color: #363636;
+}
+
+nav ul a:active {
+    color: #fff;
+}
+
+/* position selector */
+/* last child */
 nav ul li:nth-child(3) {
     border-right: none;
 }
