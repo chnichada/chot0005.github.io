@@ -3,10 +3,11 @@ body {
     background-color: #aad4cf;
 }
 
+/* adding text overlay image */
 .container {
     position: relative;
     max-width: 900px;
-    margin: -7px auto;
+    margin: -5px auto;
     background-color: #d4e9e7;
 }
 
@@ -34,7 +35,7 @@ nav ul li {
     display: inline-block;
     width: 32%;
     border-right: 1px solid black;
-
+    box-sizing: border-box;
 }
 
 /* using psuedo classes */
@@ -65,14 +66,13 @@ nav ul a {
     width: 100%;
     height: 30px;
     font-size: 20px;
-    color: #000;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
 }
 
 main {
-    margin: 1%;
+    margin: 8px;
 }
 
 h2 {
@@ -81,8 +81,9 @@ h2 {
     margin-bottom: 15px;
 }
 
+/* text wrapping */
 section img {
-    width: 200px;
+    width: 20%;
     float: left;
     margin: 0 15px 15px 0;
 }
