@@ -29,6 +29,8 @@ img {
 nav ul {
     list-style: none;
     margin: 0px;
+    /* text align center */
+    padding: 0px;
 }
 
 nav ul li {
@@ -81,15 +83,15 @@ h2 {
     margin-bottom: 15px;
 }
 
+section {
+    font-size: 0.9rem;
+}
+
 /* text wrapping */
 section img {
     width: 20%;
     float: left;
     margin: 0 15px 15px 0;
-}
-
-section p {
-    font-size: 15px;
 }
 
 h3 {
@@ -109,10 +111,11 @@ form {
     display: block;
     border: 1px solid #000;
     margin: 1px;
-    padding: 20px 15px;
-    font-size: 14px;
+    padding: 22px 10px 10px 10px;
+    font-size: 0.9rem;
 }
 
+/* styling input and textarea */
 input,
 textarea {
     width: 98%;
@@ -120,34 +123,35 @@ textarea {
     padding: 5px;
 }
 
+/* styling textarea */
 textarea {
     height: 50px;
 }
 
 h4 {
     font-weight: 400;
-    font-size: medium;
+    font-size: 0.9rem;
+    font-weight: 500;
     margin: 2px;
 }
 
 .radio input {
-    width: 0;
     margin: 10px;
+    width: 0;
 }
 
 button {
     border: 1px solid #000;
-    background-color: #d4e9e7;
-    font-size: 0.6em;
+    background-color: transparent;
+    font-size: 0.5rem;
     text-align: center;
-    height: 25px;
-    width: 35px;
+    padding: 6px 5px;
 }
 
+/* styling the footer */
 footer {
-    display: block;
     text-align: right;
-    margin: 20px 20px 0 0;
+    margin: 30px 20px 0 0;
     height: 40px;
-    font-size: smaller;
+    font-size: 12px;
 }
