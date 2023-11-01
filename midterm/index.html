@@ -59,10 +59,12 @@
                     <!-- adding an unordered list -->
                     <ul>
                         <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
-                        <li>Waryfish, <q>lionfish; longfin smelt; leopard danio dragonfish,</q> Lost River sucker, mojarra.
+                        <li>Waryfish, <q>lionfish; longfin smelt; leopard danio dragonfish,</q> Lost River sucker,
+                            mojarra.
                         </li>
                         <li>Herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
-                        <li>Waryfish, <q>lionfish; longfin smelt; leopard danio dragonfish,</q> Lost River sucker, mojarra.
+                        <li>Waryfish, <q>lionfish; longfin smelt; leopard danio dragonfish,</q> Lost River sucker,
+                            mojarra.
                         </li>
                     </ul>
                 </section>
@@ -71,29 +73,30 @@
                 <section>
                     <h3>Contact to learn more</h3>
                     <!-- adding a form -->
-                    <form action="contact.html" method="post">
-                        <!-- text fields -->
-                        <div>
-                            <label for="fullname">Your Name</label>
-                            <input type="text" id="fullname" name="fullname">
-                        </div>
-                        <div>
-                            <label for="youremail">Your Email</label>
-                            <input type="email" id="youremail" name="youremail" required>
-                        </div>
-                        <div>
-                            <label for="message">Your Message</label>
-                            <textarea name="message" id="message"></textarea>
+                    <form action="#" method="post">
+                        <div class="form-width">
+                            <div>
+                                <label for="fullname">Your Name</label>
+                                <input type="text" id="fullname" name="fullname">
+                            </div>
+                            <div>
+                                <label for="youremail">Your Email</label>
+                                <input type="email" id="youremail" name="youremail" required>
+                            </div>
+                            <div>
+                                <label for="message">Your Message</label>
+                                <textarea name="message" id="message"></textarea>
+                            </div>
                         </div>
                         <!-- radio buttons -->
-                        <div class="radio">
+                        <div class="visitus">
                             <h4>Would you like to visit the starfish?</h4>
                             <label for="yes">Yes</label>
-                            <input type="radio" name="past" id="yes">
+                            <input type="radio" name="visit" id="yes" value="yes" checked>
                             <label for="no">No</label>
-                            <input type="radio" name="past" id="no">
+                            <input type="radio" name="visit" id="no" value="no">
                             <label for="maybe">Maybe</label>
-                            <input type="radio" name="past" id="maybe">
+                            <input type="radio" name="visit" id="maybe" value="maybe">
                         </div>
 
                         <button type="submit">Send</button>
