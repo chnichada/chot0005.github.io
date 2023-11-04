@@ -85,12 +85,13 @@ h2 {
     margin-bottom: 15px;
 }
 
+article,
 section {
     font-size: 0.9rem;
 }
 
 /* text wrapping */
-section img {
+article img {
     width: 21%;
     float: left;
     margin: 0 15px 15px 0;
