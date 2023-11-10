@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Website name</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!--comment for HTML-->
+    <!-- ctrl or command + / to add or remove a comment -->
+
+    <!-- site header -->
+    <div class="container">
+        <header>
+            <!-- main heading -->
+            <h1>Coffee shop again</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="current">Home</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!-- adding an on page link -->
+            <a href="#treatoftheweek" class="blue-link">Treat of the week</a>
+            <!-- article of the page. can be standalong -->
+            <article>
+                <h2>Our story</h2>
+                <!-- adding an image -->
+                <img src="./images/coffee-shop.jpg" alt="Coffee cup" title="Coffee cup on the coffee beans pile">
+                <p>
+                    we are a <em>family owned business</em>. Haili is the <abbr
+                        title="Chief Excexcutive Officer">CEO</abbr>
+                    and she is the head barista of the shop. Sue is the pastry chef and she is in charge. Celebrating
+                    the 25
+                    <sup>th</sup> aniversary in october 2023.
+                </p>
+                <blockquote>
+                    Nothing as good as a cup of tea <cite>- Haili and Sue</cite>
+                </blockquote>
+                <hr>
+                <section>
+                    <h3>Ottawa</h3>
+                    <p>
+                        We are a local shop based in Ottawa. Our special is <b>organic bean</b> coffee.
+                    </p>
+                </section>
+            </article>
+            <aside>
+                <h3>Merchandise</h3>
+                <!-- addding un order lists -->
+                <ul>
+                    <li>mugs</li>
+                    <li>hats</li>
+                    <li>t-shirts</li>
+                </ul>
+            </aside>
+            <!-- adding section for order list -->
+            <section>
+                <h3>Events</h3>
+                <ol>
+                    <li>October 23 <sup>nd</sup> - coffee foundation</li>
+                    <li>Febuary 8 <sup>th</sup> - live music</li>
+                </ol>
+            </section>
+            <!-- adding a section for a description list -->
+            <section id="treatoftheweek">
+                <h3 class="white-text">Treats of the week</h3>
+                <dl class="white-text">
+                    <dt>name</dt>
+                    <dd>banana bread</dd>
+
+                    <dt>calories</dt>
+                    <dd>250 cal</dd>
+
+                    <dt>ingredient</dt>
+                    <dd>
+                        <ul>
+                            <li>all purpose flour</li>
+                            <li>baking soda</li>
+                            <li>baking powder</li>
+                            <li>butter</li>
+                            <li>eggs</li>
+                            <li>sugar</li>
+                            <li>salt</li>
+                            <li>banana</li>
+                        </ul>
+                    </dd>
+                </dl>
+                <!-- adding an external link -->
+                <a href="https://google.com" target="_blank" class="blue-link large-text">Get the recipe</a>
+            </section>
+            <section>
+                <!-- adding a section for menu table -->
+                <h3>Menu Specials</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="2">Items</th>
+                            <th rowspan="2">Price</th>
+                        </tr>
+                        <tr>
+                            <th>Name</th>
+                            <th>Calories</th>
+                        </tr>
+                    <tbody>
+                        <tr>
+                            <td>Banana Bread</td>
+                            <td>250</td>
+                            <td>&dollar; 6.00</td>
+                        </tr>
+                        <tr>
+                            <td>Oatmeal</td>
+                            <td>110</td>
+                            <td>&dollar; 8.00</td>
+                        </tr>
+                    </tbody>
+                    </thead>
+                </table>
+            </section>
+        </main>
+        <footer>
+            <!-- site footer -->
+            &copy; copyright Haili' coffee shop, 2023
+        </footer>
+    </div>
+</body>
+
+</html>
