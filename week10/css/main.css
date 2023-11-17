@@ -50,7 +50,7 @@ h5 {
     margin: 1em 0 0.5em;
 }
 
-/* to ensure font size are properation */
+/* to ensure font size are proporation */
 /* https://www.modularscale.com/ */
 h1 {
     font-size: 5.063rem;
@@ -104,6 +104,28 @@ p {
     text-transform: uppercase;
 }
 
+/* navigation */
+.nav-list li {
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+
+/* love hate */
+.nav-list a,
+.nav-list a:link,
+.nav-list a:visited {
+    display: block;
+    padding: 1em 0;
+    text-decoration: none;
+}
+
+.nav-list a:hover,
+.nav-list a:focus,
+.nav-list a.current {
+    background-color: #00add8;
+    color: inherit;
+}
+
 .btn {
     text-decoration: none;
     display: inline-block;
@@ -117,6 +139,19 @@ p {
 .btn:focus {
     background-color: #00add8;
     color: inherit;
+}
+
+/***** action section *****/
+.actions-list {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.actions-list li {
+    max-width: 50%;
+    padding: 1em;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 /***** footer styles *****/
@@ -137,26 +172,56 @@ desktop styles
     html {
         font-size: 16px;
     }
+
     .mobile-logo {
         display: none;
     }
+
     .desktop-logo {
         display: inline-block;
         max-width: 300px;
     }
+
     .banner {
         background-image: url(../images/smog-desktop.jpg);
     }
+
     .banner h1 {
         color: white;
     }
+
+    /* navigation */
+    .nav-list {
+        display: flex;
+    }
+
+    .nav-list li {
+        flex: 1;
+        border: none;
+        border-right: 1px solid gray;
+    }
+
+    .nav-list li:last-child {
+        border: none;
+    }
+
     /***** app section *****/
     .app img {
         width: 40%;
         float: left;
         margin-right: 1em;
     }
+
     .app .btn {
         float: right;
     }
 }
+
+/**********
+media quary 800px
+ **********/
+ @media screen and (min-width: 800px) {
+    .actions-list li {
+        max-width: 20%;
+    }
+ }
