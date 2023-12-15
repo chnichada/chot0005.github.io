@@ -535,6 +535,10 @@ footer {
     }
 
     /* our services section */
+    .ourservices h3 {
+        font-size: 2em;
+    }
+
     .cards {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
@@ -574,6 +578,11 @@ footer {
         /* padding-bottom: 0; */
         font-size: 1.5em;
         color: white;
+    }
+
+    /* our vision section */
+    .ourvision h3 {
+        margin-top: 0.5em;
     }
 
     /* our team section */
